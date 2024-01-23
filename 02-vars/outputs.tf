@@ -21,3 +21,7 @@ output "Value_in_Map1" {
 output "Value_in_Map2" {
   value = lookup(var.v3, "abc", "none")
 }
+
+output "Second_Value_in_List1" {
+  value = element(var.v2, 4)
+}
