@@ -8,7 +8,7 @@ output "test" {
   value = null_resource.test.*.id
 }
 
-resource "aws_instance" "frontend" {
+resource "aws_instance" "test" {
   count                   = 3
   ami                     = "ami-0f3c7d07486cad139"
   instance_type           = "t3.micro"
