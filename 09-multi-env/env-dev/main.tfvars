@@ -1,1 +1,1 @@
-test = "Hello world - prod"
+test = "Hello world - dev"
